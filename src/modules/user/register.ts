@@ -5,6 +5,7 @@ import { RegisterInput } from "./register/registerInput";
 
 @Resolver()
 export class RegisterResolver {
+  // TODO: check on replacement
   @Query(() => String)
   async hello() {
     return "Hello world!";
